@@ -1,0 +1,31 @@
+[0m21:55:04.015719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119b08350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119b4e4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119b6bfd0>]}
+
+
+============================== 21:55:04.017667 | 062fc976-2ffc-4fdc-ada8-eec24b77bf77 ==============================
+[0m21:55:04.017667 [info ] [MainThread]: Running with dbt=1.8.2
+[0m21:55:04.017912 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/bob/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:55:12.770201 [debug] [MainThread]: Starter project path: /opt/anaconda3/envs/mlops/lib/python3.11/site-packages/dbt/include/starter_project
+[0m21:55:12.780651 [info ] [MainThread]: 
+Your new dbt project "yomproject" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:55:12.781183 [info ] [MainThread]: Setting up your profile.
+[0m21:55:12.782200 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m21:55:12.784424 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 8.790414, "process_user_time": 0.41371, "process_kernel_time": 0.084302, "process_mem_max_rss": "97419264", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m21:55:12.785009 [debug] [MainThread]: Command `dbt init` failed at 21:55:12.784922 after 8.79 seconds
+[0m21:55:12.785384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119b64410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119b53b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119b6be50>]}
+[0m21:55:12.785733 [debug] [MainThread]: Flushing usage events
